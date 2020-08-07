@@ -85,8 +85,8 @@ h5 {
 }
 
 .bioText {
+  display: block;
   float: left;
-  width: 60%;
 }
 
 .headshot {
@@ -94,7 +94,8 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   padding: 3%;
-  width: 35%;
+  width: fit-content;
+  
 }
 #bio {
   display: table-row;
